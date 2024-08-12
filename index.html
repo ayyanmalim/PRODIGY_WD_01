@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET FIT'S</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0385d88ca9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>GET FIT'S</h1>
+            </div>
+            <ul id="sidemenu">
+                <li>
+                    <a href="#home" id="homes" onclick="home()">HOME</a>
+                    <a href="#program" id="programs" onclick="program()">PROGRAM</a>
+                    <a href="#plan" id="plans" onclick="plan()">PLAN</a>
+                    <a href="#blog" id="blogs" onclick="blog()">BLOG</a>
+                    <a href="#contact" id="contacts" onclick="contact()">CONTACT US</a>
+                    <a href="signin.html"><button>JOIN NOW</button></a>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <!-- main -->
+
+        <div class="home" id="home">
+            <div class="homeText">
+                <h1>Commit To Be Fit</h1>
+                <h3>Once You See Reasult, It Becomes An Addition</h3>
+                <p>A gym is a place where people go to train and exercise, but also to unwind, socialize, and <br>
+                    Therefore, a good gym is a facility that promotes physical activity, provides a safe,<br>
+                    functional, and comfortable workout environment, and creates a pleasant and<br>
+                    enjoyable atmosphere for recreation and socialization.</p>
+                <a href="signin.html" class="join-now">JOIN NOW</a>
+            </div>
+            <!-- <img src="images/andrei_deiu.jpeg" alt=""> -->
+        </div>
+
+        <!-- program -->
+        <div class="program" id="program">
+            <div class="head">
+                <h1>Our <span>Program's</span></h1>
+            </div>
+            <div class="ourProgram">
+                <div class="crd">
+                    <img src="images/dance.jpeg" alt="">
+                    <h3>Dance</h3>
+                </div>
+                <div class="crd">
+                    <img src="images/cardio.jpeg" alt="">
+                    <h3>Cardio</h3>
+                </div>
+                <div class="crd">
+                    <img src="images/heavy.jpeg" alt="">
+                    <h3>Heavy</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- plans -->
+        <div class="plan" id="plan">
+            <div class="head">
+                <h1>Our <span>Plan's</span></h1>
+            </div>
+            <div class="ourPlan">
+                <div class="cards">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <h3>Basic Package</h3>
+                    <h1>30 Day in $10</h1>
+                    <p>No Personal Trainer</p>
+                    <p>Valid for 30 Days</p>
+                    <p>Only Gym</p>
+                    <p>Full Day Valid</p>
+                    <p>Fully AC</p>
+                    <p>Under CCTV Surveillance</p>
+                    <a href="planForm.html?package=Basic&price=800"><button>Buy Plan</button></a>
+                </div>
+                <div class="cards">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <h3>Premium Package</h3>
+                    <h1>30 Day in $30</h1>
+                    <p>No Personal Trainer</p>
+                    <p>Valid for 30 Days</p>
+                    <p>Gym + Cardio</p>
+                    <p>Full Day Valid</p>
+                    <p>Fully AC</p>
+                    <p>Under CCTV Surveillance</p>
+                    <a href="planForm.html?package=Premium&price=2500"><button>Buy Plan</button></a>
+                </div>
+                <div class="cards">
+                    <i class="fa-solid fa-diamond"></i>
+                    <h3>Diamond Package</h3>
+                    <h1>30 Day in $50</h1>
+                    <p>With Personal Trainer</p>
+                    <p>Valid for 30 Days</p>
+                    <p>Gym + Cardio</p>
+                    <p>Full Day Valid</p>
+                    <p>Fully AC</p>
+                    <p>Under CCTV Surveillance</p>
+                    <a href="planForm.html?package=Diamond&price=4000"><button>Buy Plan</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- blog -->
+        <div class="blog" id="blog">
+            <div class="head">
+                <h1>Our <span>Blog's</span></h1>
+            </div>
+            <div class="ourBlog">
+                <div class="blogCard">
+                    <img src="images/cbum.jpeg" alt="">
+                    <div class="blogText">
+                        <h3>CHRIS BUMSTEAD</h3>
+                        <p>CHRIS BUMSTEAD is our member who joined our gym in 2010 and he is 4 times OLYMPIA champion
+                            back to back</p>
+                        <a href="https://fitnessvolt.com/chris-bumstead-profile/">Read More</a>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <img src="images/ramon.jpeg" alt="">
+                    <div class="blogText">
+                        <h3>RAMON DINO</h3>
+                        <p>RAMON DINO is also our member who joined our gym in 2011 and came in 2nd place at the 2021
+                            Europa Pro</p>
+                        <a href="https://generationiron.com/ramon-rocha-queiroz-profile/">Read More</a>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <img src="images/ryan.jpeg" alt="">
+                    <div class="blogText">
+                        <h3>RYAN TERRY</h3>
+                        <p>RYAN TERRY is also our member who joined our gym in 2012 and came 1st in IFBB Arnold Men's
+                            Pysique</p>
+                        <a href="https://www.greatestphysiques.com/male-physiques/ryan-terry/">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="contact" id="contact">
+            <div class="head">
+                <h1>Let's <span>Begin...</span></h1>
+                <h2>Contact <span>US</span></h2>
+            </div>
+            <div class="contactPage">
+                <div class="contactText">
+                    <h1>Let's Go...</h1>
+                    <h2>Start Your Journey Now!</h2>
+                </div>
+                <img src="images/andrei_deiu_2.jpeg" alt="">
+            </div>
+            <div class="contactUs">
+                <h1>Contact Us</h1>
+                <input type="text" id="name" placeholder="Enter Your Name" value="">
+                <br>
+                <input type="text" id="number" placeholder="Enter Your Number" value="">
+                <br>
+                <button onclick="submit()">Submit</button>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footerText">
+                <h2>About us</h2>
+                <p>The journey of you starting the business and <br class="responsive-hide">
+                    your motivation and excellence being in the <br class="responsive-hide">
+                    field must be mentioned clearly in the page. <br class="responsive-hide">
+                    You must mention the different purposes such <br class="responsive-hide">
+                    as body-building, weight losing, fitness et <br class="responsive-hide">
+                    cetera that your gyms are going to serve. <br class="responsive-hide">
+                </p>
+            </div>
+            <div class="footerText">
+                <h2>Plans</h2>
+                <p>Monthly Package</p>
+                <p>3 Months Package</p>
+                <p>6 Months Package</p>
+                <p>Yearly Package</p>
+            </div>
+            <div class="footerText">
+                <h2>Contact US</h2>
+                <p>Membership</p>
+                <p>Plan</p>
+                <p>Diamond Plan</p>
+                <p>Join Now</p>
+            </div>
+            <div class="footerText">
+                <h2>Program</h2>
+                <p>Dance</p>
+                <p>Cardio</p>
+                <p>Heavy Workout</p>
+                <p>Athletics</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(1, 1, 14);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    overflow-x: hidden;
+    background-image: url("images/andrei_deiu.jpeg");
+    background-repeat: no-repeat;
+    background-position: 730px 90px;
+margin: 0;
+padding: 0;
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 14);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(31, 30, 30);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+nav li a {
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+ul li {
+    list-style: none;
+}
+nav ul {
+    margin-top: 6px;
+}
+.logo {
+    font-size: 25px;
+    margin-left: 33px;
+    color: rgb(42, 250, 42);
+}
+nav ul li button {
+    width: 110px;
+    height: 33px;
+    background-color: rgb(4, 180, 4);
+    border: none;
+    color: white;
+    font-size: 13.2px;
+    text-decoration: none;
+}
+nav ul li button:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(20, 251, 20);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* main */
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+.home img {
+    width: 39%;
+    margin-top: 130px;
+}
+.home .homeText {
+    margin-top: 200px;
+    margin-left: 44px;
+}
+.homeText h1 {
+    font-size: 85px;
+    color: rgb(55, 248, 55);
+}
+.homeText h3 {
+    margin-top: 22px;
+    font-size: 22px;
+}
+.homeText p {
+    margin-top: 22px;
+    color: silver;
+}
+/* background-color: #28a745;
+border-radius: 5px;
+padding: 10px 20px;
+font-size: 1.2em;
+text-decoration: none;
+color: #fff; */
+.homeText .join-now {
+    margin-top: 22px;
+    color: white;
+    font-size: 22px;
+    border: none;
+    background-color: green;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+}
+.homeText .join-now:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(23, 252, 23);
+    cursor: pointer;
+}
+.head {
+    text-align: center;
+    padding: 95px;
+}
+.head span {
+    color: rgb(37, 244, 37);
+}
+.ourProgram {
+    display: flex;
+    justify-content: center;
+}
+.ourProgram .crd {
+    margin-inline: 22px;
+    text-align: center;
+}
+.ourProgram .crd img:hover {
+    width: 105%;
+}
+
+/* plan */
+.ourPlan {
+    display: flex;
+    justify-content: center;
+}
+.ourPlan .cards {
+    width: 300px;
+    height: 415px;
+    padding: 4px;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-inline: 22px;
+}
+.cards i {
+    font-size: 22px;
+    margin-top: 22px;
+    color: orange;
+}
+.cards h3 {
+    margin-top: 22px;
+    color: rgb(58, 249, 58);
+}
+.cards h1 {
+    margin-top: 22px;
+    color: rgb(24, 255, 24);
+}
+.cards p {
+    margin-top: 12px;
+    color: silver;
+}
+.cards button {
+    margin-top: 22px;
+    width: 130px;
+    height: 38px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.cards button:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(35, 252, 35);
+    cursor: pointer;
+}
+.cards:hover {
+    transition: 0.7s ease;
+    width: 310px;
+    height: 440px;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* blog */
+.ourBlog {
+    display: flex;
+    justify-content: center;
+}
+.ourBlog .blogCard {
+    height: 500px;
+    width: 350px;
+    margin-inline: 22px;
+    background-color: rgb(42, 41, 41);
+}
+.blogCard img {
+    width: 350px;
+    height: 300px;
+
+}
+.blogCard h3 {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    color: chocolate;
+}
+.blogCard p {
+    color: gray;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+.blogCard a {
+    text-decoration: none;
+    width: 90px;
+    padding: 11px;
+    background-color: green;
+    color: white;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.blogText {
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+/* contact */
+.contactPage {
+    display: flex;
+    justify-content: center;
+}
+.contact .head {
+    margin-top: 42px;
+}
+.contactText {
+    margin-left: 33px;
+    color: rgb(33, 249, 33);
+    margin-top: 134px;
+    font-size: 32px;
+}
+.contactPage img {
+    height: 600px;
+    width: 500px;
+    margin-left: 73px;
+}
+.contactUs {
+    text-align: center;
+    margin-top: 22px;
+}
+.contactUs input {
+    width: 360px;
+    height: 33px;
+    padding: 8px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+    border: none;
+}
+.contactUs button {
+    border: none;
+    color: white;
+    background-color: rgb(41, 249, 41);
+    width: 365px;
+    height: 45px;
+    font-size: 22px;
+    margin-top: 22px;
+    border-radius: 2px;
+}
+.contactUs button:hover {
+    background-color: transparent;
+    color: rgb(27, 246, 27);
+    border: 2px solid white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+.footerText p {
+    margin-top: 11px;
+    color: silver;
+}
+.footerText {
+    margin-inline: 73px;
+    margin-top: 33px;
+}
+nav .fas {
+    display: none;
+}
+.responsive-hide {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        position: relative;
+        background-image: none;
+        z-index: -1;
+    }
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("images/andrei_deiu.jpeg");
+        background-repeat: no-repeat;
+        background-position: center 80%;
+        background-size: 80% 80%;
+        opacity: 0.5;
+        z-index: -1;
+    }
+    .homeText {
+        position: relative;
+        z-index: -1;
+    }
+    .homeText h1 {
+        font-size: 30px;
+    }
+    .homeText p {
+        font-size: 22px;
+        color: white;
+    }
+    .homeText .join-now {
+        display: inline-block;
+        margin-top: 20px; /* Adjust as needed */
+        font-size: 18px; /* Adjust font size */
+        padding: 12px 25px; /* Adjust padding */
+        background-color: green;
+        text-align: center;
+        width: auto; /* Ensure the button width adapts */
+    }
+    .homeText .join-now:hover {
+        background-color: darkgreen; /* Hover effect */
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px; /* Adjust padding as needed */
+    }
+
+    nav .logo {
+        margin-top: 0; /* Remove any top margin */
+        font-size: 20px; /* Adjust font size if needed */
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+        margin-top: 0;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    nav ul {
+        background: #575656;
+        position: fixed;
+        top: 0;
+        right: -210px;
+        width: 160px;
+        height: 100%;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul li {
+        width: 100%;
+    }
+    nav ul li a {
+        display: block;
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    nav ul li button {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    nav ul .fas {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .program .head h1 {
+        font-size: 22px;
+    }
+    .ourProgram {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourProgram .crd {
+        margin: 20px 0;
+    }
+    .ourProgram .crd img {
+        width: 80%;
+    }
+    .ourPlan {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourPlan .cards {
+        margin: 20px 0;
+        width: 80%;
+    }
+    .blog .head h1{
+        font-size: 22px;
+    }
+    .ourBlog {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourBlog .blogCard {
+        margin: 20px 0;
+        width: 80%;
+    }
+    .ourBlog .blogCard img{
+        width: 100%;
+    }
+    .contact .head h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .contact .head h2 {
+        font-size: 20px;
+    }
+    .contactPage {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactPage img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contactText {
+        text-align: center;
+        margin: 0;
+        padding: 0 20px;
+    }
+    .contactText h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .contactText h2 {
+        font-size: 18px;
+    }
+    .contactUs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactUs h1 {
+        font-size: 22px;
+    }
+    .contactUs input {
+        width: 250px;
+        height: 23px;
+        padding: 8px;
+        border-radius: 2px;
+        outline: none;
+        font-size: 12px;
+        margin-top: 15px;
+        border: none;
+    }
+    .contactUs button {
+        border: none;
+        color: white;
+        background-color: rgb(41, 249, 41);
+        width: 250px;
+        height: 23px;
+        font-size: 12px;
+        margin-top: 17px;
+        border-radius: 2px;
+    }
+    .contactUs button:hover {
+        background-color: transparent;
+        color: rgb(27, 246, 27);
+        border: 2px solid white;
+    }
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        padding: 22px;
+        box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+        background-color: rgb(1, 1, 14);
+    }
+    .footerText {
+        margin-inline: 0;
+        padding-inline: 15px;
+        color: silver;
+    }
+    .footerText p {
+        margin-top: 11px;
+        text-align: left;
+    }
+    .footerText .responsive-hide {
+        display: none;
+    }
+}
